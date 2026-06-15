@@ -1,77 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Advanced - Question Paper Set 2</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-        h1, h2 { color: #1a237e; }
-        .part { margin-top: 30px; border-top: 3px solid #1a237e; padding-top: 20px; }
-        .question { margin-bottom: 25px; }
-        .marks { color: #d32f2f; font-weight: bold; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2 {
+            color: #1a237e;
+        }
+
+        .part {
+            margin-top: 30px;
+            border-top: 3px solid #1a237e;
+            padding-top: 20px;
+        }
+
+        .question {
+            margin-bottom: 25px;
+        }
+
+        .marks {
+            color: #d32f2f;
+            font-weight: bold;
+        }
     </style>
 </head>
+
 <body>
     <a href="end_game_2.html" style="font-size: 40px;">Link To Question Paper 2</a>
 
-<h1>JavaScript Web Developer (Advanced JS) - Question Paper Set 2</h1>
-<p><strong>Total Marks: 60 | Time: 3 Hours</strong></p>
+    <h1>JavaScript Web Developer (Advanced JS) - Question Paper Set 2</h1>
+    <p><strong>Total Marks: 60 | Time: 3 Hours</strong></p>
 
-<div class="part">
-    <h2>Part A (30 Marks)</h2>
-    <p><strong>Answer any 6 questions. Each question carries 5 marks.</strong></p>
+    <div class="part">
+        <h2>Part A (30 Marks)</h2>
+        <p><strong>Answer any 6 questions. Each question carries 5 marks.</strong></p>
 
-    <div class="question">
-        <p><strong>Q1.</strong>Create an HTML page with a temperature converter (Celsius to Fahrenheit and vice versa). Use input field, and convert button. Implement using function expressions and demonstrate. Style inputs and results nicely.</p>
-        <span class="marks">[5 Marks]</span>
+        <div class="question">
+            <p><strong>Q1.</strong>Create an HTML page with a temperature converter (Celsius to Fahrenheit and vice
+                versa). Use input field, and convert button. Implement using function expressions and demonstrate. Style
+                inputs and results nicely.</p>
+            <span class="marks">[5 Marks]</span>
+        </div>
+
+        <div class="question">
+            <p><strong>Q2.</strong> Build a color palette generator. Have a button that generates 5 random colors (using
+                Math functions). Display them as colored divs with hex codes. Allow clicking a color to copy to
+                clipboard.</p>
+            <span class="marks">[5 Marks]</span>
+        </div>
+
+        <div class="question">
+            <p><strong>Q3.</strong> Implement a counter box with increment, decrement, and reset buttons. Add a feature
+                to set a custom step value. Persist count using localStorage. Use let/const properly and show
+                understanding of block scope inside event handlers.</p>
+            <span class="marks">[5 Marks]</span>
+        </div>
+
+        <div class="question">
+            <p><strong>Q4.</strong> Create a searchable dropdown using a datalist. Populate it with an array of
+                programming topics from the course (e.g., DOM, Functions, Arrays). On selection, display detailed
+                explanation fetched from a Map.</p>
+            <span class="marks">[5 Marks]</span>
+        </div>
+
+        <div class="question">
+            <p><strong>Q5.</strong> Design a simple form for student registration. Use try-catch for validating email
+                format and age (>18). On successful submission, add to an array and display in a table. Clear form after
+                submit. Use CSS for validation error messages.</p>
+            <span class="marks">[5 Marks]</span>
+        </div>
+
+        <div class="question">
+            <p><strong>Q6.</strong> Build tabs interface (Home, About, Contact) using HTML divs and JS. Switching tabs
+                should load different content (use objects for tab data).</p>
+            <span class="marks">[5 Marks]</span>
+        </div>
     </div>
 
-    <div class="question">
-        <p><strong>Q2.</strong> Build a color palette generator. Have a button that generates 5 random colors (using Math functions). Display them as colored divs with hex codes. Allow clicking a color to copy to clipboard. Use an object to track selected colors (Set for uniqueness). (Focus: DOM manipulation, Objects, Set, Events)</p>
-        <span class="marks">[5 Marks]</span>
-    </div>
+    <div class="part">
+        <h2>Part B (30 Marks)</h2>
+        <p><strong>Answer all 3 questions. Each carries 10 marks.</strong></p>
 
-    <div class="question">
-        <p><strong>Q3.</strong> Implement a counter component with increment, decrement, and reset buttons. Add a feature to set a custom step value. Persist count using localStorage. Use let/const properly and show understanding of block scope inside event handlers. Animate count change with CSS. (Focus: Variables/Scope, localStorage, Event Handling)</p>
-        <span class="marks">[5 Marks]</span>
-    </div>
+        <div class="question">
+            <p><strong>Q7.</strong> Develop a "Flashcard Learning App" for JavaScript concepts. Have an array of
+                question-answer objects. Show question, flip to answer button, next card.</p>
+            <span class="marks">[10 Marks]</span>
+        </div>
 
-    <div class="question">
-        <p><strong>Q4.</strong> Create a searchable dropdown using a datalist or custom div list. Populate it with an array of programming topics from the course (e.g., DOM, Functions, Arrays). On selection, display detailed explanation fetched from a Map. Style as modern select. (Focus: Arrays, Map, DOM Events, UI components)</p>
-        <span class="marks">[5 Marks]</span>
+        <div class="question">
+            <p><strong>Q8.</strong> Build a "Shopping Cart Simulator". Display products from an array. Add to cart
+                functionality with quantity. Show cart sidebar with total calculation. Use OOP principles (constructor
+                for Product and Cart). Persist cart. Implement discount code validation (try-catch + conditionals).</p>
+            <span class="marks">[10 Marks]</span>
+        </div>
     </div>
-
-    <div class="question">
-        <p><strong>Q5.</strong> Design a simple form for student registration. Use try-catch for validating email format and age (>18). On successful submission, add to an array and display in a table. Clear form after submit. Use CSS for table styling and validation error messages. (Focus: Error Handling, Arrays, Forms, DOM)</p>
-        <span class="marks">[5 Marks]</span>
-    </div>
-
-    <div class="question">
-        <p><strong>Q6.</strong> Build tabs interface (Home, About, Contact) using HTML divs and JS. Switching tabs should load different content (use objects for tab data). Implement smooth fade transition with CSS. (Focus: Objects, Event delegation, CSS + JS integration)</p>
-        <span class="marks">[5 Marks]</span>
-    </div>
-</div>
-
-<div class="part">
-    <h2>Part B (30 Marks)</h2>
-    <p><strong>Answer all 3 questions. Each carries 10 marks.</strong></p>
-
-    <div class="question">
-        <p><strong>Q7.</strong> Develop a "Flashcard Learning App" for JavaScript concepts. Have an array of question-answer objects. Show question, flip to answer button (CSS 3D flip effect), next card, and track progress. Implement rating system (easy/hard) using localStorage to prioritize cards. Include error handling for empty deck. (Focus: Objects/Arrays, DOM + CSS Animation, localStorage, State management)</p>
-        <span class="marks">[10 Marks]</span>
-    </div>
-
-    <div class="question">
-        <p><strong>Q8.</strong> Create an Image Gallery with search and filter functionality. Store image metadata (url, tags, likes) in an array of objects. Allow liking (use Set for liked images). Implement infinite-scroll simulation or "Load More" with array slicing. Use CSS Grid for responsive gallery. Handle search across tags. (Focus: Arrays, Set/Map, Filtering, Advanced UI, Event Handling)</p>
-        <span class="marks">[10 Marks]</span>
-    </div>
-
-    <div class="question">
-        <p><strong>Q9.</strong> Build a "Shopping Cart Simulator". Display products from an array. Add to cart functionality with quantity. Show cart sidebar with total calculation. Use OOP principles (constructor for Product and Cart). Persist cart. Implement discount code validation (try-catch + conditionals). Style as e-commerce UI. (Focus: OOP, Arrays/Objects, Complex State, Error Handling, UI Integration)</p>
-        <span class="marks">[10 Marks]</span>
-    </div>
-</div>
 
 </body>
+
 </html>
